@@ -1,0 +1,36 @@
+{
+  "name": "api-mail-gun-",
+  "version": "1.0.0",
+  "description": "api criada para enviar email com mail gun",
+  "homepage": "https://github.com/Geltonmarins/api-mail-gun-#readme",
+  "bugs": {
+    "url": "https://github.com/Geltonmarins/api-mail-gun-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geltonmarins/api-mail-gun-.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "engine": {
+    "node": 18
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "buil": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@types/node": "^22.15.17",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.2",
+    "form-data": "^4.0.2",
+    "mailgun.js": "^12.0.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
